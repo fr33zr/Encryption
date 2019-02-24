@@ -25,7 +25,7 @@ MD5_ = 'yes'
 # Prompt for users name
 name = input("Good Day, Your name is...? > ")
 # Print users name and explain what the program does
-print ("\nHello {}, This program encrypts in 5 different algorithms!!!!\n".format(name))
+print ("\nHello {}, This program encrypts in 5 different algorithms!!!\n".format(name))
 
 for encrypt in encrypts:
         print ("\t* " + encrypt)
