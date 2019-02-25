@@ -33,7 +33,7 @@ for encrypt in encrypts:
 # Begin asking for algorithm choices
 # If yes to a algorithm choice ask for quote or string to encrypt
 hash = input('\nWould you like to implement the Standard Strong Hash Encryption?(Yes/no) ')
-
+# Add more messaging
 if hash.lower() == ANSWER:
         hash = input('Ok then we will use Standard Strong encryption, enter your string/quote > ')
         print (crypt.crypt(hash))
