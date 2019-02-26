@@ -1,7 +1,9 @@
+# Import modules
 import crypt
+# Greet User
 print ("This is an encryption script!!!!")
 
-# Take this string 
+# Take this string
 encrypt = input("Input string > ")
 #Standard strong Enc
 encS = crypt.crypt(encrypt)
