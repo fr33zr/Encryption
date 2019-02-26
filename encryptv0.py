@@ -80,8 +80,8 @@ if HEX_.lower() == 'yes':
 	HEX_ = input("Input your string/quote here for HEX Encryption >  ")
 	print (crypt.crypt(HEX_, "HX"))
 else:
-	print ("You entered no for all of the questions.")
-	print ("Goodbye!!!")
+	print ("You entered no for all of the questions.\nGoodbye!!")
+
 sys.exit(0)
 
 
