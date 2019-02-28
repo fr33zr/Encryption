@@ -1,10 +1,10 @@
 # Import modules
 import crypt
 # Greet User
-print ("This is an encryption script!!!!")
-
+print ("I am an encryption script!!!!")
+print ("I Print strings/quotes in 6 algorithms!")
 # Take this string
-encrypt = input("Input string > ")
+encrypt = input("Input string/quote > ")
 #Standard strong Enc
 encS = crypt.crypt(encrypt)
 # Other encryptions
